@@ -8,6 +8,7 @@ datasource db {
 }
 
 
+// example model
 model user {
   id Int @id @default(autoincrement())
   name String 
